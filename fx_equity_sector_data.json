@@ -1,0 +1,251 @@
+{
+  "last_updated": "2025-12-06 20:47:44",
+  "currencies_analyzed": 25,
+  "fair_value_summary": [
+    {
+      "Currency": "CHF",
+      "Current_Rate": 0.8044,
+      "Fair_Value": 0.9618885986136615,
+      "Residual_%": -19.578393661569056,
+      "R_Squared": 0.35053932968211765,
+      "Num_Predictors": 1
+    },
+    {
+      "Currency": "MXN",
+      "Current_Rate": 18.158,
+      "Fair_Value": 21.07998788845309,
+      "Residual_%": -16.092013924733386,
+      "R_Squared": 0.41399027549173306,
+      "Num_Predictors": 5
+    },
+    {
+      "Currency": "IDR",
+      "Current_Rate": 16635.0,
+      "Fair_Value": 18917.09710314856,
+      "Residual_%": -13.718648050186719,
+      "R_Squared": 0.8632273230380156,
+      "Num_Predictors": 9
+    },
+    {
+      "Currency": "CZK",
+      "Current_Rate": 20.776,
+      "Fair_Value": 22.362292370880198,
+      "Residual_%": -7.635215493262408,
+      "R_Squared": 0.46174790657990616,
+      "Num_Predictors": 4
+    },
+    {
+      "Currency": "PLN",
+      "Current_Rate": 3.6262,
+      "Fair_Value": 3.820932152737054,
+      "Residual_%": -5.370143752055989,
+      "R_Squared": 0.07206760390638656,
+      "Num_Predictors": 2
+    },
+    {
+      "Currency": "SGD",
+      "Current_Rate": 1.2959,
+      "Fair_Value": 1.356296355884025,
+      "Residual_%": -4.660572257429202,
+      "R_Squared": -0.0019203360027417737,
+      "Num_Predictors": 0
+    },
+    {
+      "Currency": "EUR",
+      "Current_Rate": 0.8589,
+      "Fair_Value": 0.8938729391699829,
+      "Residual_%": -4.071828987074502,
+      "R_Squared": -0.0005203824943185165,
+      "Num_Predictors": 0
+    },
+    {
+      "Currency": "TRY",
+      "Current_Rate": 42.5193,
+      "Fair_Value": 44.14723979359352,
+      "Residual_%": -3.828707889343238,
+      "R_Squared": 0.9736640908336134,
+      "Num_Predictors": 7
+    },
+    {
+      "Currency": "GBP",
+      "Current_Rate": 0.75024,
+      "Fair_Value": 0.7704009209778282,
+      "Residual_%": -2.6872628729244212,
+      "R_Squared": -0.0038040361388920196,
+      "Num_Predictors": 0
+    },
+    {
+      "Currency": "ZAR",
+      "Current_Rate": 16.9202,
+      "Fair_Value": 17.003739092790678,
+      "Residual_%": -0.4937240268476525,
+      "R_Squared": 0.852467026970322,
+      "Num_Predictors": 7
+    },
+    {
+      "Currency": "NOK",
+      "Current_Rate": 10.0755,
+      "Fair_Value": 10.121661227250828,
+      "Residual_%": -0.4581532157295182,
+      "R_Squared": 0.764160925728745,
+      "Num_Predictors": 5
+    },
+    {
+      "Currency": "PEN",
+      "Current_Rate": 3.3621,
+      "Fair_Value": 3.2928563965491686,
+      "Residual_%": 2.0595343223232874,
+      "R_Squared": 0.5328184852531479,
+      "Num_Predictors": 1
+    },
+    {
+      "Currency": "CLP",
+      "Current_Rate": 924.02,
+      "Fair_Value": 891.121999470298,
+      "Residual_%": 3.560312604673278,
+      "R_Squared": 0.9127960065826926,
+      "Num_Predictors": 9
+    },
+    {
+      "Currency": "CAD",
+      "Current_Rate": 1.3815,
+      "Fair_Value": 1.3262223138146676,
+      "Residual_%": 4.001280216093547,
+      "R_Squared": -0.0012176634417537802,
+      "Num_Predictors": 0
+    },
+    {
+      "Currency": "JPY",
+      "Current_Rate": 155.34,
+      "Fair_Value": 145.66733894448578,
+      "Residual_%": 6.2267677710275695,
+      "R_Squared": 0.9262071684652486,
+      "Num_Predictors": 6
+    },
+    {
+      "Currency": "PHP",
+      "Current_Rate": 58.882,
+      "Fair_Value": 54.74808024665084,
+      "Residual_%": 7.020685019783909,
+      "R_Squared": 0.8607627248910045,
+      "Num_Predictors": 8
+    },
+    {
+      "Currency": "AUD",
+      "Current_Rate": 1.5067,
+      "Fair_Value": 1.37078316224507,
+      "Residual_%": 9.020829478657333,
+      "R_Squared": 0.28435294564840263,
+      "Num_Predictors": 1
+    },
+    {
+      "Currency": "THB",
+      "Current_Rate": 31.85,
+      "Fair_Value": 28.6935465308251,
+      "Residual_%": 9.910371959732817,
+      "R_Squared": 0.7118048366693241,
+      "Num_Predictors": 7
+    },
+    {
+      "Currency": "KRW",
+      "Current_Rate": 1473.39,
+      "Fair_Value": 1301.503840151613,
+      "Residual_%": 11.666032744106246,
+      "R_Squared": 0.9006543488284793,
+      "Num_Predictors": 9
+    },
+    {
+      "Currency": "NZD",
+      "Current_Rate": 1.7322,
+      "Fair_Value": 1.4523973557868166,
+      "Residual_%": 16.1530218342676,
+      "R_Squared": 0.3654932264495727,
+      "Num_Predictors": 1
+    },
+    {
+      "Currency": "INR",
+      "Current_Rate": 89.934,
+      "Fair_Value": 72.71354870561304,
+      "Residual_%": 19.14787654767603,
+      "R_Squared": 0.941065980442417,
+      "Num_Predictors": 6
+    },
+    {
+      "Currency": "SEK",
+      "Current_Rate": 9.3812,
+      "Fair_Value": 7.06563306697665,
+      "Residual_%": 24.683056890625394,
+      "R_Squared": 0.5951463914866176,
+      "Num_Predictors": 4
+    },
+    {
+      "Currency": "BRL",
+      "Current_Rate": 5.439,
+      "Fair_Value": 4.026012443734642,
+      "Residual_%": 25.978811477576,
+      "R_Squared": 0.8462094658767623,
+      "Num_Predictors": 2
+    },
+    {
+      "Currency": "HUF",
+      "Current_Rate": 327.75,
+      "Fair_Value": 117.04729652141319,
+      "Residual_%": 64.28762882641855,
+      "R_Squared": 0.8041098204583491,
+      "Num_Predictors": 9
+    },
+    {
+      "Currency": "COP",
+      "Current_Rate": 3830.6,
+      "Fair_Value": 938.5895939573747,
+      "Residual_%": 75.49758278187817,
+      "R_Squared": 0.8078343092311641,
+      "Num_Predictors": 9
+    }
+  ],
+  "individual_pages": [
+    "eur_analysis.html",
+    "aud_analysis.html",
+    "cad_analysis.html",
+    "gbp_analysis.html",
+    "jpy_analysis.html",
+    "sek_analysis.html",
+    "nok_analysis.html",
+    "nzd_analysis.html",
+    "chf_analysis.html",
+    "mxn_analysis.html",
+    "clp_analysis.html",
+    "brl_analysis.html",
+    "cop_analysis.html",
+    "pen_analysis.html",
+    "krw_analysis.html",
+    "idr_analysis.html",
+    "inr_analysis.html",
+    "thb_analysis.html",
+    "php_analysis.html",
+    "sgd_analysis.html",
+    "pln_analysis.html",
+    "huf_analysis.html",
+    "czk_analysis.html",
+    "zar_analysis.html",
+    "try_analysis.html"
+  ],
+  "methodology": {
+    "model": "LASSO Regression",
+    "predictors": "Equity Sector ETF Performance Ratios",
+    "sectors": [
+      "Energy",
+      "Utilities",
+      "Industrials",
+      "Healthcare",
+      "Consumer Discretionary",
+      "Consumer Staples",
+      "Technology",
+      "Financials",
+      "Materials",
+      "SP500"
+    ],
+    "alpha": 0.9,
+    "train_test_split": "70/30"
+  }
+}
