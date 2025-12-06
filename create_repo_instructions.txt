@@ -1,0 +1,21 @@
+To create the repository, please:
+
+1. Go to: https://github.com/new
+
+2. Fill in:
+   - Repository name: fx_equity_sector_dashboard
+   - Description: FX fair value analysis using equity sector performance as predictive signals
+   - Public
+   - Do NOT initialize with README (we already have one)
+
+3. Click "Create repository"
+
+4. Then come back and tell me when it's ready, and I'll push the code.
+
+Alternatively, if you can run this command from your terminal:
+
+gh repo create DataVizHonduran/fx_equity_sector_dashboard --public --description "FX fair value analysis using equity sector performance as predictive signals" --homepage "https://datavizhonduran.github.io/fx_equity_sector_dashboard"
+
+Then run:
+cd /tmp/fx-equity-sector-dashboard
+git push -u origin main
