@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX Equity Sector Fair Value Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        .status {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .status h2 {
+            margin-top: 0;
+            color: #856404;
+        }
+        .instructions {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .instructions h3 {
+            margin-top: 0;
+        }
+        .instructions ol {
+            padding-left: 20px;
+        }
+        .instructions li {
+            margin: 10px 0;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #e9ecef;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 10px 10px 10px 0;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💹 FX Equity Sector Fair Value Dashboard</h1>
+
+        <div class="status">
+            <h2>⚠️ Dashboard Generation in Progress</h2>
+            <p>The dashboard is being set up and will be available shortly. The automated workflow needs to run to generate the interactive charts.</p>
+        </div>
+
+        <div class="instructions">
+            <h3>To activate the dashboard:</h3>
+            <ol>
+                <li>Go to the <a href="https://github.com/DataVizHonduran/fx_equity_sector_dashboard/actions" target="_blank">Actions tab</a></li>
+                <li>Click on <strong>"Update FX Equity Sector Dashboard"</strong></li>
+                <li>Click the <strong>"Run workflow"</strong> button</li>
+                <li>Select <code>main</code> branch and click <strong>"Run workflow"</strong></li>
+                <li>Wait 2-3 minutes for the workflow to complete</li>
+                <li>Refresh this page - the dashboard will be live!</li>
+            </ol>
+        </div>
+
+        <h3>What This Dashboard Does</h3>
+        <p>This dashboard uses LASSO regression to estimate FX fair values based on equity sector performance. It identifies which currencies are undervalued or overvalued relative to what equity market signals suggest.</p>
+
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Fair value estimates for 25+ currency pairs</li>
+            <li>Residual analysis (% deviation from fair value)</li>
+            <li>Sector coefficient breakdown for each currency</li>
+            <li>Interactive charts with historical trends</li>
+            <li>Daily automated updates</li>
+        </ul>
+
+        <div style="margin-top: 30px;">
+            <a href="https://github.com/DataVizHonduran/fx_equity_sector_dashboard" class="btn">View Source Code</a>
+            <a href="https://github.com/DataVizHonduran/fx_equity_sector_dashboard/actions" class="btn">Go to Actions</a>
+            <a href="https://boquin.xyz" class="btn">Back to Portfolio</a>
+        </div>
+
+        <p style="margin-top: 30px; font-size: 0.9rem; color: #6c757d;">
+            Once the workflow completes, the main dashboard will be available at:
+            <code>fx_equity_sector_fair_value.html</code>
+        </p>
+    </div>
+</body>
+</html>
