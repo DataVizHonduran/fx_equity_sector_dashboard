@@ -38,6 +38,11 @@ print("Fetching equity sector data from Stooq...")
 try:
     etf_data = data.DataReader(equity_sector_etfs, 'stooq', start_date, end_date)
     final_df = etf_data['Close'].sort_index(ascending=True)
+
+    # Remove the last day to avoid incomplete data issues
+    final_df = final_df.iloc[:-1]
+    print(f"Removed last day ({final_df.index[-1].date()}) to avoid incomplete data")
+
     indexed_df = final_df.apply(lambda col: col / col.dropna().iloc[0] * 100)
     indexed_df = indexed_df.bfill()
 
