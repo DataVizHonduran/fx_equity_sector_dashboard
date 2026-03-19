@@ -1,205 +1,205 @@
 {
-  "last_updated": "2026-03-18 14:20:03",
+  "last_updated": "2026-03-19 14:06:03",
   "currencies_analyzed": 25,
   "fair_value_summary": [
     {
       "Currency": "CHF",
-      "Current_Rate": 0.7875,
-      "Fair_Value": 0.9063116225933181,
-      "Residual_%": -15.087190170580078,
-      "R_Squared": 0.40909434598569105,
+      "Current_Rate": 0.7845,
+      "Fair_Value": 0.9053519284640763,
+      "Residual_%": -15.404962200647079,
+      "R_Squared": 0.4190169525862729,
       "Num_Predictors": 1
     },
     {
+      "Currency": "NOK",
+      "Current_Rate": 9.5749,
+      "Fair_Value": 10.795891416450157,
+      "Residual_%": -12.75200175928895,
+      "R_Squared": 0.7346513666732948,
+      "Num_Predictors": 5
+    },
+    {
       "Currency": "ZAR",
-      "Current_Rate": 16.6633,
-      "Fair_Value": 18.7258703001957,
-      "Residual_%": -12.377922141446787,
-      "R_Squared": 0.8224952051372951,
+      "Current_Rate": 16.6512,
+      "Fair_Value": 18.693985039752835,
+      "Residual_%": -12.268095030705512,
+      "R_Squared": 0.8312158168565218,
       "Num_Predictors": 7
     },
     {
-      "Currency": "NOK",
-      "Current_Rate": 9.6646,
-      "Fair_Value": 10.794015673093512,
-      "Residual_%": -11.686108820784217,
-      "R_Squared": 0.7328699059486805,
-      "Num_Predictors": 4
-    },
-    {
       "Currency": "SEK",
-      "Current_Rate": 9.3261,
-      "Fair_Value": 10.349877927357458,
-      "Residual_%": -10.977556828228922,
-      "R_Squared": 0.5693340925670121,
+      "Current_Rate": 9.2757,
+      "Fair_Value": 10.369584438493554,
+      "Residual_%": -11.793012263155918,
+      "R_Squared": 0.5765086667854016,
       "Num_Predictors": 4
     },
     {
       "Currency": "PEN",
-      "Current_Rate": 3.4187,
-      "Fair_Value": 3.7334547400088254,
-      "Residual_%": -9.206854652611389,
-      "R_Squared": 0.43411087192015174,
+      "Current_Rate": 3.4166,
+      "Fair_Value": 3.732131473379313,
+      "Residual_%": -9.235247713496257,
+      "R_Squared": 0.4419274884996135,
       "Num_Predictors": 1
     },
     {
       "Currency": "PLN",
-      "Current_Rate": 3.7057,
-      "Fair_Value": 3.9378853362700865,
-      "Residual_%": -6.265626906389786,
-      "R_Squared": 0.08617739034564342,
+      "Current_Rate": 3.6901,
+      "Fair_Value": 3.9343457353929354,
+      "Residual_%": -6.618946245167753,
+      "R_Squared": 0.08994370552456965,
+      "Num_Predictors": 2
+    },
+    {
+      "Currency": "BRL",
+      "Current_Rate": 5.1923,
+      "Fair_Value": 5.521645546067575,
+      "Residual_%": -6.342960654576474,
+      "R_Squared": 0.8533320656205933,
       "Num_Predictors": 2
     },
     {
       "Currency": "SGD",
-      "Current_Rate": 1.2774,
-      "Fair_Value": 1.3530349743881618,
-      "Residual_%": -5.921009424468584,
-      "R_Squared": -0.00035181269467177145,
+      "Current_Rate": 1.2757,
+      "Fair_Value": 1.353055779294653,
+      "Residual_%": -6.063790804629056,
+      "R_Squared": -0.00019747786109958199,
       "Num_Predictors": 0
     },
     {
       "Currency": "THB",
       "Current_Rate": 32.3,
-      "Fair_Value": 34.10347475681029,
-      "Residual_%": -5.583513178979245,
-      "R_Squared": 0.6738730492651439,
+      "Fair_Value": 34.18286241338859,
+      "Residual_%": -5.829295397487907,
+      "R_Squared": 0.673240244995161,
       "Num_Predictors": 6
     },
     {
-      "Currency": "BRL",
-      "Current_Rate": 5.231,
-      "Fair_Value": 5.502063335058654,
-      "Residual_%": -5.1818645585672805,
-      "R_Squared": 0.8447303861666484,
-      "Num_Predictors": 2
-    },
-    {
       "Currency": "AUD",
-      "Current_Rate": 1.41463,
-      "Fair_Value": 1.4694320636559233,
-      "Residual_%": -3.8739503372559057,
-      "R_Squared": 0.33225875430465657,
+      "Current_Rate": 1.40805,
+      "Fair_Value": 1.4709273825331377,
+      "Residual_%": -4.46556461298517,
+      "R_Squared": 0.3301182268906071,
       "Num_Predictors": 1
     },
     {
+      "Currency": "CZK",
+      "Current_Rate": 21.157,
+      "Fair_Value": 21.834292542922707,
+      "Residual_%": -3.2012692863955534,
+      "R_Squared": 0.4544767380530619,
+      "Num_Predictors": 4
+    },
+    {
       "Currency": "COP",
-      "Current_Rate": 3689.7,
-      "Fair_Value": 3823.325355829151,
-      "Residual_%": -3.621577793022494,
-      "R_Squared": 0.8091404620119007,
+      "Current_Rate": 3692.76,
+      "Fair_Value": 3810.250834618604,
+      "Residual_%": -3.1816536850107755,
+      "R_Squared": 0.8260783569391046,
       "Num_Predictors": 9
     },
     {
       "Currency": "GBP",
-      "Current_Rate": 0.75098,
-      "Fair_Value": 0.7722744166192373,
-      "Residual_%": -2.8355504300031114,
-      "R_Squared": -0.0005062768639003679,
+      "Current_Rate": 0.74884,
+      "Fair_Value": 0.772278686006826,
+      "Residual_%": -3.129999199672304,
+      "R_Squared": -0.00043717363715201074,
       "Num_Predictors": 0
     },
     {
-      "Currency": "CZK",
-      "Current_Rate": 21.226,
-      "Fair_Value": 21.824057544460793,
-      "Residual_%": -2.817570641952293,
-      "R_Squared": 0.44831556394293326,
-      "Num_Predictors": 4
-    },
-    {
       "Currency": "EUR",
-      "Current_Rate": 0.8691,
-      "Fair_Value": 0.8923771770062606,
-      "Residual_%": -2.6783082506340627,
-      "R_Squared": -0.00033833789712933715,
+      "Current_Rate": 0.8665,
+      "Fair_Value": 0.8926807167235494,
+      "Residual_%": -3.0214329744430906,
+      "R_Squared": -2.6606852146393578e-05,
       "Num_Predictors": 0
     },
     {
       "Currency": "HUF",
-      "Current_Rate": 338.88,
-      "Fair_Value": 345.1838914790411,
-      "Residual_%": -1.8602134912184587,
-      "R_Squared": 0.820936157980597,
+      "Current_Rate": 336.43,
+      "Fair_Value": 345.27166153015645,
+      "Residual_%": -2.6280835627489947,
+      "R_Squared": 0.8296006000107906,
       "Num_Predictors": 9
     },
     {
       "Currency": "JPY",
-      "Current_Rate": 159.06,
-      "Fair_Value": 160.94466086655655,
-      "Residual_%": -1.1848741773900062,
-      "R_Squared": 0.9428777596308308,
-      "Num_Predictors": 8
-    },
-    {
-      "Currency": "MXN",
-      "Current_Rate": 17.673,
-      "Fair_Value": 17.69495966103607,
-      "Residual_%": -0.12425542373151732,
-      "R_Squared": 0.5171455376459781,
-      "Num_Predictors": 4
-    },
-    {
-      "Currency": "CLP",
-      "Current_Rate": 909.21,
-      "Fair_Value": 909.0045916754148,
-      "Residual_%": 0.022591956158123868,
-      "R_Squared": 0.9156722934331979,
-      "Num_Predictors": 9
+      "Current_Rate": 158.98,
+      "Fair_Value": 161.56427153456656,
+      "Residual_%": -1.6255324786555343,
+      "R_Squared": 0.9450843183836852,
+      "Num_Predictors": 6
     },
     {
       "Currency": "TRY",
-      "Current_Rate": 44.1519,
-      "Fair_Value": 43.95178604462829,
-      "Residual_%": 0.4532397368441795,
-      "R_Squared": 0.9779690455799492,
+      "Current_Rate": 44.1774,
+      "Fair_Value": 44.36658993836029,
+      "Residual_%": -0.4282505044667484,
+      "R_Squared": 0.9777934460221022,
       "Num_Predictors": 7
     },
     {
+      "Currency": "CLP",
+      "Current_Rate": 905.76,
+      "Fair_Value": 906.0309020034822,
+      "Residual_%": -0.02990880624913951,
+      "R_Squared": 0.9153360161129129,
+      "Num_Predictors": 9
+    },
+    {
+      "Currency": "MXN",
+      "Current_Rate": 17.654,
+      "Fair_Value": 17.643051824708596,
+      "Residual_%": 0.06201526731281053,
+      "R_Squared": 0.5429200327570974,
+      "Num_Predictors": 4
+    },
+    {
       "Currency": "PHP",
-      "Current_Rate": 59.641,
-      "Fair_Value": 58.81549424637159,
-      "Residual_%": 1.3841246015801305,
-      "R_Squared": 0.8807656552948353,
+      "Current_Rate": 59.635,
+      "Fair_Value": 58.82731873496382,
+      "Residual_%": 1.3543745535946679,
+      "R_Squared": 0.8740957895605456,
       "Num_Predictors": 8
     },
     {
       "Currency": "IDR",
-      "Current_Rate": 16985.0,
-      "Fair_Value": 16579.070009391715,
-      "Residual_%": 2.389932237905712,
-      "R_Squared": 0.894947843352858,
+      "Current_Rate": 16975.0,
+      "Fair_Value": 16549.0130884284,
+      "Residual_%": 2.5094957971817333,
+      "R_Squared": 0.9029891959562958,
       "Num_Predictors": 9
     },
     {
       "Currency": "KRW",
-      "Current_Rate": 1489.34,
-      "Fair_Value": 1446.731573605456,
-      "Residual_%": 2.8608931737913315,
-      "R_Squared": 0.9111509828731573,
+      "Current_Rate": 1487.61,
+      "Fair_Value": 1447.626649027629,
+      "Residual_%": 2.6877576093445867,
+      "R_Squared": 0.9149081259736848,
       "Num_Predictors": 9
     },
     {
       "Currency": "CAD",
-      "Current_Rate": 1.3686,
-      "Fair_Value": 1.3252114285714287,
-      "Residual_%": 3.1702887204859955,
-      "R_Squared": -0.00015367987615788614,
+      "Current_Rate": 1.3691,
+      "Fair_Value": 1.3256696131968146,
+      "Residual_%": 3.1721851437576025,
+      "R_Squared": -0.0003020637083885891,
       "Num_Predictors": 0
     },
     {
       "Currency": "INR",
-      "Current_Rate": 92.234,
-      "Fair_Value": 89.16037198637787,
-      "Residual_%": 3.33242406663717,
-      "R_Squared": 0.9457142645618831,
+      "Current_Rate": 92.375,
+      "Fair_Value": 89.25266335502235,
+      "Residual_%": 3.3800667333993513,
+      "R_Squared": 0.9464455118515653,
       "Num_Predictors": 7
     },
     {
       "Currency": "NZD",
-      "Current_Rate": 1.70649,
-      "Fair_Value": 1.614389597070633,
-      "Residual_%": 5.3970666648715815,
-      "R_Squared": 0.45520153960325405,
+      "Current_Rate": 1.70736,
+      "Fair_Value": 1.6173870185083532,
+      "Residual_%": 5.269713563141153,
+      "R_Squared": 0.4542188552828862,
       "Num_Predictors": 1
     }
   ],
