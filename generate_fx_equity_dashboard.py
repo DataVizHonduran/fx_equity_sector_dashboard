@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import datetime
 from datetime import date
-from pandas_datareader import data
+import yfinance as yf
 import json
 
 # Configuration
@@ -33,29 +33,27 @@ if exclude_recent:
 start_date = datetime.datetime.now() - datetime.timedelta(days=365*years)
 end_date = date.today()
 
-print("Fetching equity sector data from Stooq...")
-# Get equity sector data
-try:
-    etf_data = data.DataReader(equity_sector_etfs, 'stooq', start_date, end_date)
-    final_df = etf_data['Close'].sort_index(ascending=True)
+print("Fetching equity sector data from yfinance...")
+# Get equity sector data — yfinance tickers are without the .US suffix
+yf_tickers = [t.replace('.US', '') for t in equity_sector_etfs]
+raw = yf.download(yf_tickers, start=start_date, end=end_date, auto_adjust=False, progress=False)
+final_df = raw['Close'].sort_index(ascending=True)
+# Rename to .US suffix so the rest of the script is unchanged
+final_df = final_df.rename(columns={t: t + '.US' for t in final_df.columns})
 
-    # Remove the last day to avoid incomplete data issues
-    final_df = final_df.iloc[:-1]
-    print(f"Removed last day ({final_df.index[-1].date()}) to avoid incomplete data")
+# Remove the last day to avoid incomplete data issues
+final_df = final_df.iloc[:-1]
+print(f"Removed last day ({final_df.index[-1].date()}) to avoid incomplete data")
 
-    indexed_df = final_df.apply(lambda col: col / col.dropna().iloc[0] * 100)
-    indexed_df = indexed_df.bfill()
+indexed_df = final_df.apply(lambda col: col / col.dropna().iloc[0] * 100)
+indexed_df = indexed_df.bfill()
 
-    # Create sector ratios vs SPY
-    for sector in equity_sector_etfs:
-        indexed_df[f"{sector} / SPY"] = indexed_df[sector] / indexed_df["SPY.US"] * 100
+# Create sector ratios vs SPY
+for sector in equity_sector_etfs:
+    indexed_df[f"{sector} / SPY"] = indexed_df[sector] / indexed_df["SPY.US"] * 100
 
-    ratios = [f"{sector} / SPY" for sector in equity_sector_etfs[:-1]]
-    print(f"Successfully loaded {len(equity_sector_etfs)} equity sector ETFs")
-
-except Exception as e:
-    print(f"Error fetching equity data: {e}")
-    raise
+ratios = [f"{sector} / SPY" for sector in equity_sector_etfs[:-1]]
+print(f"Successfully loaded {len(equity_sector_etfs)} equity sector ETFs")
 
 def load_fx_data():
     """Load FX data from the EMFX_risk_diffusion CSV"""
