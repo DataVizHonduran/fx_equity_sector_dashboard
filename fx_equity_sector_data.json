@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-02 22:04:05",
+  "last_updated": "2026-11-03 19:55:54",
   "currencies_analyzed": 25,
   "fair_value_summary": [
     {
       "Currency": "COP",
       "Current_Rate": 3130.71,
-      "Fair_Value": 4408.502668990683,
-      "Residual_%": -40.81478862592455,
+      "Fair_Value": 4408.502668990682,
+      "Residual_%": -40.81478862592453,
       "R_Squared": 0.601830378607735,
       "Num_Predictors": 9
     },
@@ -21,8 +21,8 @@
     {
       "Currency": "KRW",
       "Current_Rate": 1325.28,
-      "Fair_Value": 1573.3258433319168,
-      "Residual_%": -18.716485824272365,
+      "Fair_Value": 1573.3258433319165,
+      "Residual_%": -18.716485824272347,
       "R_Squared": 0.8393515680857002,
       "Num_Predictors": 9
     },
@@ -31,7 +31,7 @@
       "Current_Rate": 9.3444,
       "Fair_Value": 10.799521506012951,
       "Residual_%": -15.572123475161067,
-      "R_Squared": 0.5504267354880021,
+      "R_Squared": 0.550426735488002,
       "Num_Predictors": 4
     },
     {
@@ -39,14 +39,14 @@
       "Current_Rate": 16.6291,
       "Fair_Value": 19.217480645311873,
       "Residual_%": -15.565368211820676,
-      "R_Squared": 0.7217174122450638,
+      "R_Squared": 0.721717412245064,
       "Num_Predictors": 6
     },
     {
       "Currency": "JPY",
       "Current_Rate": 157.45,
-      "Fair_Value": 179.74407772254196,
-      "Residual_%": -14.15946505083644,
+      "Fair_Value": 179.744077722542,
+      "Residual_%": -14.159465050836456,
       "R_Squared": 0.9042705741681979,
       "Num_Predictors": 8
     },
@@ -61,8 +61,8 @@
     {
       "Currency": "CLP",
       "Current_Rate": 994.76,
-      "Fair_Value": 1080.9354372137902,
-      "Residual_%": -8.662937513952134,
+      "Fair_Value": 1080.93543721379,
+      "Residual_%": -8.66293751395211,
       "R_Squared": 0.8703709856624464,
       "Num_Predictors": 9
     },
@@ -71,7 +71,7 @@
       "Current_Rate": 9.9558,
       "Fair_Value": 10.667061477938592,
       "Residual_%": -7.144192108505516,
-      "R_Squared": 0.4846314576597438,
+      "R_Squared": 0.4846314576597437,
       "Num_Predictors": 4
     },
     {
@@ -85,9 +85,9 @@
     {
       "Currency": "THB",
       "Current_Rate": 33.805,
-      "Fair_Value": 36.1081879934386,
-      "Residual_%": -6.813157797481432,
-      "R_Squared": 0.5954264217186243,
+      "Fair_Value": 36.10818799343859,
+      "Residual_%": -6.813157797481412,
+      "R_Squared": 0.5954264217186245,
       "Num_Predictors": 6
     },
     {
@@ -125,9 +125,9 @@
     {
       "Currency": "INR",
       "Current_Rate": 95.18,
-      "Fair_Value": 98.06368166603072,
-      "Residual_%": -3.029713874795872,
-      "R_Squared": 0.945358756317723,
+      "Fair_Value": 98.0636816660307,
+      "Residual_%": -3.0297138747958567,
+      "R_Squared": 0.9453587563177231,
       "Num_Predictors": 6
     },
     {
@@ -135,7 +135,7 @@
       "Current_Rate": 21.781,
       "Fair_Value": 22.27893787323474,
       "Residual_%": -2.2861111667725997,
-      "R_Squared": 0.4004324281670163,
+      "R_Squared": 0.4004324281670162,
       "Num_Predictors": 4
     },
     {
@@ -157,9 +157,9 @@
     {
       "Currency": "PLN",
       "Current_Rate": 3.9362,
-      "Fair_Value": 3.912623638546281,
-      "Residual_%": 0.598962488027,
-      "R_Squared": 0.13857330471400653,
+      "Fair_Value": 3.9126236385462816,
+      "Residual_%": 0.5989624880269887,
+      "R_Squared": 0.1385733047140063,
       "Num_Predictors": 2
     },
     {
@@ -173,8 +173,8 @@
     {
       "Currency": "IDR",
       "Current_Rate": 18162.0,
-      "Fair_Value": 17749.49353024092,
-      "Residual_%": 2.27126125844664,
+      "Fair_Value": 17749.493530240918,
+      "Residual_%": 2.27126125844666,
       "R_Squared": 0.9027867005804983,
       "Num_Predictors": 9
     },
@@ -197,8 +197,8 @@
     {
       "Currency": "MXN",
       "Current_Rate": 18.6155,
-      "Fair_Value": 17.45662606474936,
-      "Residual_%": 6.225317263842708,
+      "Fair_Value": 17.456626064749365,
+      "Residual_%": 6.225317263842689,
       "R_Squared": 0.5955823720363291,
       "Num_Predictors": 3
     }
